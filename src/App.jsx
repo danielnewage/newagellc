@@ -31,7 +31,7 @@ function App() {
             <MainLayout />
           </ProtectedRoute>
         }>
-          <Route index element={<DashboardContent />} />EmployeeSalaryTable
+          <Route index element={<DashboardContent />} />
           <Route path="dashboard" element={<DashboardContent />} />
           <Route path="employee" element={<Employees />} />
           <Route path="management" element={<SalaryManagement />} />
